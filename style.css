@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#page {
+    display: flex;
+}
+
+#page aside {
+    width: 30%;
+    background-color: darkred;
+    color: white;
+}
+#page aside img {
+    border: 1px black solid;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#page aside h3 {
+background-color: white;
+color: darkred;
+text-align: center;
+}
+
+#page p.coordonnees { 
+margin-left: 15%;
+font-size: 15px;
+
+}
+
+#page main {
+    width: 70%;
+}
