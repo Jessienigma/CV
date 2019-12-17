@@ -1,11 +1,21 @@
+/*page*/
+
 body {
     padding: 0;
     margin: 0;
 }
 
 #page {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
+    text-align: justify;
 }
+
+#page aside a {
+    color: gold;
+}
+
+/*partie gauche*/
 
 #page aside {
     width: 30%;
@@ -26,12 +36,88 @@ color: darkred;
 text-align: center;
 }
 
-#page p.coordonnees { 
-margin-left: 15%;
-font-size: 15px;
-
+#page p.left { 
+margin-left: 10%;
+margin-right: 10%;
+font-size: 0.9em;
 }
+
+#page p.loisirs {
+    margin-left: -10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.loisir {
+    position: relative;
+    top: 520px;
+}
+
+/*partie droite*/
 
 #page main {
     width: 70%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#page main h3 img {
+    margin-right: 3%;
+}
+
+#page main h3 {
+    border-bottom: 1px darkred solid;
+}
+
+#titre {
+    width: 70%;
+}
+
+#page main section p.titre {
+    margin-top: -0.7em;
+}
+
+#name {
+    color: darkred
+}
+
+#fonction {
+    text-decoration: underline;
+    text-decoration-color: darkred;
+}
+
+#page p.description {
+    font-size: 0.7em;
+    text-align: justify;
+    margin-top: -1em;
+    margin-bottom: 1.5em;
+}
+
+li {
+    display: flex;
+}
+
+#page main aside {
+    background-color: white;
+    color: black;
+}
+
+#page main section {
+   width: 100%;
+   margin-top: -1.2em;
+}
+
+#page main a {
+    color: darkred;
+}
+
+#recom1 {
+    margin-right: 10%;}
+
+#recom {
+    display: inline-flex;
+    width: 100%;
+    margin-left: 6%;
 }
